@@ -1,0 +1,500 @@
+{"id": "mmlu-18", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-230", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-265", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-437", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-540", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-633", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-663", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-741", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1018", "task": "mmlu", "output": " B", "correct": false}
+{"id": "mmlu-1020", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-1031", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1131", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1208", "task": "mmlu", "output": " B", "correct": false}
+{"id": "mmlu-1212", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1314", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1318", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1349", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1471", "task": "mmlu", "output": " B", "correct": false}
+{"id": "mmlu-1494", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1501", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1528", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1553", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-1618", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1648", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-1649", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1786", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1889", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-1919", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-2038", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-2044", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-2133", "task": "mmlu", "output": " C", "correct": true}
+{"id": "mmlu-2281", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-2289", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-2334", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-2397", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-2407", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-2450", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-2793", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3012", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3059", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3088", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3102", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3119", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3130", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3329", "task": "mmlu", "output": " C", "correct": true}
+{"id": "mmlu-3350", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-3525", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-3578", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3584", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3612", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3632", "task": "mmlu", "output": " B", "correct": true}
+{"id": "mmlu-3858", "task": "mmlu", "output": " D", "correct": true}
+{"id": "mmlu-3909", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3966", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3981", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-3996", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-4104", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-4242", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-4260", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-4267", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-4440", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-4509", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-4515", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-4617", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-4712", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-4756", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-4769", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-4938", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-4969", "task": "mmlu", "output": " D", "correct": true}
+{"id": "mmlu-5081", "task": "mmlu", "output": " B", "correct": true}
+{"id": "mmlu-5180", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-5194", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-5243", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-5313", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-5328", "task": "mmlu", "output": " D", "correct": true}
+{"id": "mmlu-5409", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-5448", "task": "mmlu", "output": " B", "correct": true}
+{"id": "mmlu-5451", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-5458", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-5493", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-5796", "task": "mmlu", "output": " D", "correct": false}
+{"id": "mmlu-5855", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-5866", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-6095", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-6306", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-6311", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-6410", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-6534", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-6634", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-6871", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-6890", "task": "mmlu", "output": " D", "correct": true}
+{"id": "mmlu-6981", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-7113", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-7253", "task": "mmlu", "output": " C", "correct": false}
+{"id": "mmlu-7290", "task": "mmlu", "output": " D", "correct": true}
+{"id": "mmlu-7339", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-7382", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-7735", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-7807", "task": "mmlu", "output": " C", "correct": true}
+{"id": "mmlu-7808", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-7815", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-7961", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-7969", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-8016", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-8071", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-8086", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-8268", "task": "mmlu", "output": " D", "correct": true}
+{"id": "mmlu-8322", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-8376", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-8541", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-8549", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-8594", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-8725", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-8752", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-8852", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-8857", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-8896", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-8965", "task": "mmlu", "output": " B", "correct": false}
+{"id": "mmlu-8969", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-8989", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-9031", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-9052", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-9171", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-9298", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-9402", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-9431", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-9497", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-9558", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-9618", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-9627", "task": "mmlu", "output": " B", "correct": false}
+{"id": "mmlu-9663", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-9769", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-9861", "task": "mmlu", "output": " C", "correct": true}
+{"id": "mmlu-9865", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-9882", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-9934", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-10008", "task": "mmlu", "output": " C", "correct": false}
+{"id": "mmlu-10025", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-10039", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-10131", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-10244", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-10324", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-10390", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-10403", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-10492", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-10505", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-10758", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-10817", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-10947", "task": "mmlu", "output": " C", "correct": true}
+{"id": "mmlu-11120", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-11132", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-11150", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-11198", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-11206", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-11430", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-11457", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-11472", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-11528", "task": "mmlu", "output": " B", "correct": false}
+{"id": "mmlu-11553", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-11555", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-11556", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-11576", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-11636", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-11791", "task": "mmlu", "output": " D", "correct": true}
+{"id": "mmlu-11957", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-11964", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-11984", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-12383", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-12412", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-12418", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-12830", "task": "mmlu", "output": " C", "correct": true}
+{"id": "mmlu-12841", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-12862", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-12997", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-13018", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-13073", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-13097", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-13159", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-13162", "task": "mmlu", "output": " D", "correct": true}
+{"id": "mmlu-13189", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-13274", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-13297", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-13344", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-13367", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-13387", "task": "mmlu", "output": " B", "correct": false}
+{"id": "mmlu-13458", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-13514", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-13521", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-13566", "task": "mmlu", "output": " B", "correct": true}
+{"id": "mmlu-13588", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-13596", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-13600", "task": "mmlu", "output": " D", "correct": true}
+{"id": "mmlu-13727", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-13764", "task": "mmlu", "output": " D", "correct": true}
+{"id": "mmlu-13802", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-13835", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-13845", "task": "mmlu", "output": " A", "correct": false}
+{"id": "mmlu-13917", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-13934", "task": "mmlu", "output": " A", "correct": true}
+{"id": "mmlu-14013", "task": "mmlu", "output": " D", "correct": true}
+{"id": "gsm8k-2", "task": "gsm8k", "output": " 80,000 + 50,000 = <<80000+50000=130000>>130,000.\nThe increased value is 150% of the original value, so the increased value is 150% of 80,000 = <<150/100*80000=120,000>>120,000.\nSo the profit is 120,000 - 130,000 = <<120000-130000= -10,000>>-10,000.\n#### -10000", "correct": false}
+{"id": "gsm8k-28", "task": "gsm8k", "output": " He first stopped after 20 miles, then the second stop was 15 miles before the end of the trip. So, the total distance between first and second stop is 20 + 15 = <<20+15=35>>35 miles.\n#### 35", "correct": false}
+{"id": "gsm8k-67", "task": "gsm8k", "output": " Let's say the number of emeralds is x. Then, the number of rubies is x - 35. The number of diamonds is x + 35. The number of emeralds is x. So, the number of rubies is x - 35. The number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x. So, the number of emeralds is x.", "correct": false}
+{"id": "gsm8k-79", "task": "gsm8k", "output": " 100 * 30% = <<100*30% = 30>>30.\nSo the total cost is 100 + 30 = <<100+30=130>>130.\n#### 130", "correct": false}
+{"id": "gsm8k-82", "task": "gsm8k", "output": " Let x be the weight of Alex. 4x - 2 = x. Solve for x. 4x - 2 = x. 4x - x = 2. 3x = 2. x = 2/3. So Alex weighs 2/3 of the weight of Grace. 2/3 of 125 is <<2/3*125=83.333>>83.333 pounds.\n#### 83.333", "correct": false}
+{"id": "gsm8k-127", "task": "gsm8k", "output": " Let's say Lily made 50 friends. Then Amy made 20 more than Lily, so she made 50 + 20 = 70 friends. Together, they made 50 + 70 = <<50+70=120>>120 friends.\n#### 120", "correct": true}
+{"id": "gsm8k-128", "task": "gsm8k", "output": " A watermelon costs 3 * 15 = <<3*15=45>>45$.\nAn orange costs 5 less than a watermelon, so 45 - 5 = <<45-5=40>>40$.\nA pepper costs 15$.\nSo, 4 watermelons = 4 * 45 = <<4*45=180>>180$.\n20 peppers = 20 * 15 = <<20*15=300>>300$.\n10 oranges = 10 * 40 = <<10*40=400>>400$.\nTotal = 180 + 300 + 400 = <<180+300+400=880>>880$.\n#### 880", "correct": true}
+{"id": "gsm8k-141", "task": "gsm8k", "output": " Let's say there are x worker bees. Then, there are twice as many worker bees as baby bees, so there are 2x baby bees. And there are twice as many baby bees as queens, so there are 2*(2x) = 4x baby bees. So, there are 4x worker bees. But wait, the problem says there are twice as many worker bees as baby bees, and twice as many baby bees as queens. So, if there are x worker bees, then there are 2x baby bees, and 2*(2x) = 4x baby bees. So, there are 4x worker bees. But wait, the problem says there are twice as many worker bees as baby bees, and twice as many baby bees as queens. So, if there are x worker bees, then there are 2x baby bees, and 2*(2x) = 4x baby bees. So, there are 4x worker bees. But wait, the problem says there are twice as many worker bees as baby bees, and twice as many baby bees as queens. So, if there are x worker bees, then there are 2x baby bees, and 2*(2x) =", "correct": false}
+{"id": "gsm8k-151", "task": "gsm8k", "output": " First, find the number of tires inflated on the first day. Each tire costs 25 cents. 5 people on bicycles got both tires inflated. So, 5 x 2 = <<5*2=10>>10 tires.\nEach tire costs 25 cents. 3 people on tricycle got all their tricycle tires inflated. So, 3 x 2 = <<3*2=6>>6 tires.\nOne person got a unicycle. So, 1 tire.\nSo, total number of tires inflated on the first day is 10 + 6 + 1 = <<10+6+1=17>>17.\nEach tire costs 25 cents. So, total cost is 17 x 25 = <<17*25=425>>425 cents.\nConvert cents to dollars: 425 cents = $<<425/100=4.25>>4.25.\n#### 4.25", "correct": false}
+{"id": "gsm8k-164", "task": "gsm8k", "output": " Let's assume that she does the taxes herself. She can do 3 fewer hours, so she has 3 hours less. She loses $35 per hour, so she loses 3 * 35 = $<<3*35=105>>105. The accountant charges $90. So she has 105 + 90 = $<<105+90=195>>195.\n#### 195", "correct": false}
+{"id": "gsm8k-183", "task": "gsm8k", "output": " Let's say the first runner of the faster team is 55 seconds.  The second runner will run 60 seconds.  The third runner will run 60 + 3 = 63 seconds.  The fourth runner will run 63 + 3 = 66 seconds.  So the faster team wins by 66 - 55 = <<66-55=11>>11 seconds.\n#### 11", "correct": false}
+{"id": "gsm8k-186", "task": "gsm8k", "output": " Let's say that there are x rats in each cage. Since there are 10 cages of hamsters, there are 10x rats in total. Each rat is given 6 pieces of straw, so 6x pieces of straw are distributed. The total number of pieces of straw distributed is 160. So, 6x = 160. Therefore, x = 160/6 = 26.666... which is 26 and 2/3. But since there are 10 cages, each with 26 and 2/3, that means there are 26 and 2/3 rats in each cage. So, the answer is 26 and 2/3.\n#### 26 and 2/3", "correct": false}
+{"id": "gsm8k-187", "task": "gsm8k", "output": " Mandy owed $100. If she was able to pay it after 3 months, then she should give $100 * 3/12 = $<<100*3/12=25>>25.\n#### 25", "correct": false}
+{"id": "gsm8k-191", "task": "gsm8k", "output": " 3.5 pounds per week x 7 days = <<3.5*7=24.5>>24.5 pounds per week.\nThere are 10 ducks, so 24.5 / 10 = <<24.5/10=2.45>>2.45 pounds per day.\n#### 2.45", "correct": false}
+{"id": "gsm8k-194", "task": "gsm8k", "output": " Violetta needs 5 different colors, so she needs 5 * 2 = <<5*2=10>>10 crayons.\nShe will get $10 change.\n#### 10", "correct": true}
+{"id": "gsm8k-202", "task": "gsm8k", "output": " 10 acres x 5 tons per acre = <<10*5=50>>50 tons of grapes.\nEach ton makes 2 barrels of wine = <<50*2=100>>100 barrels of wine.\n#### 100", "correct": true}
+{"id": "gsm8k-206", "task": "gsm8k", "output": " First, he rode 5 times a week, 25 km each time, so 5 x 25 = <<5*25=125>>125 km.\nThen, he did that for 4 weeks, so 125 x 4 = <<125*4=500>>500 km.\nThen, he decided to ride only 2 times a week, and 60 km each time, and did that for 3 weeks, so 2 x 60 = <<2*60=120>>120 km.\nSo total is 500 + 120 = <<500+120=620>>620 km.\n#### 620", "correct": false}
+{"id": "gsm8k-223", "task": "gsm8k", "output": " First year: $15000, second year: $15000/3 = $<<15000/3=5000>>5000.\nTotal: $15000 + $5000 = $<<15000+5000=20000>>20000.\n#### 20000", "correct": true}
+{"id": "gsm8k-255", "task": "gsm8k", "output": " Ten stalls have 20 cows each, so 20 x 10 = <<20*10=200>>200 cows in total.\nMr. Sylas buys 40 cows, so he has 200 + 40 = <<200+40=240>>240 cows.\nHe divides them equally, so each stall gets 240 / 20 = <<240/20=12>>12 cows.\nSo, 8 of the stalls have 12 x 8 = <<12*8=96>>96 cows.\n#### 96", "correct": false}
+{"id": "gsm8k-266", "task": "gsm8k", "output": " Let's say the selling price is S. Then, the transfer fees are 3% of S, and the brokerage fee is 5% of S. So, the total amount paid for transfer and brokerage is 8% of S. The remaining amount is 100% - 8% - 250,000. But wait, the problem says that the remaining loan amount is $250,000. So, the total amount paid is 250,000 + 8% of S. But the problem says that the remaining loan amount is 250,000. So, the total amount is 250,000 + 8% of S. But the problem says that the remaining loan amount is 250,000. So, the total amount is 250,000 + 8% of S. But the problem says that the remaining loan amount is 250,000. So, the total amount is 250,000 + 8% of S. But the problem says that the remaining loan amount is 250,000. So,", "correct": false}
+{"id": "gsm8k-285", "task": "gsm8k", "output": " Twice Ann's age is 2*9 = <<18>>18. So Ann's brother is 18 years old.\n#### 18", "correct": false}
+{"id": "gsm8k-286", "task": "gsm8k", "output": " 5 quarters = 5 * 25 = 125 cents. 2 dimes = 2 * 10 = 20 cents. 125 + 20 = 145 cents. 55 cents is spent on the can. 145 - 55 = <<145-55=90>>90 cents left.\n#### 90", "correct": true}
+{"id": "gsm8k-291", "task": "gsm8k", "output": " Each adult gets 6 chocolate bars. There are 4 adults, so 4 x 6 = <<4*6=24>>24.\nThere are 8 children, so 8 x 5 = <<8*5=40>>40.\nSo, the total number of chocolate bars is 24 + 40 = <<24+40=64>>64.\nNow, each child gets 64 / 8 = <<64/8=8>>8.\n#### 8", "correct": false}
+{"id": "gsm8k-300", "task": "gsm8k", "output": " On Monday, he exercised for 16 minutes. On Sunday, he exercised for 23 minutes. So, he exercised for 16 + 23 = <<16+23=39>>39 minutes on Monday and Sunday combined.\nOn Tuesday, he wants to exercise twice as much as on Monday and Sunday combined. So, he has to exercise 2 x 39 = <<2*39=78>>78 minutes.\n#### 78", "correct": true}
+{"id": "gsm8k-306", "task": "gsm8k", "output": " Two-thirds of 60 is <<60*(2/3)=40>>40.\nHalf of that is <<40/2=20>>20.\nSo, the bakery sold 20 loaves in the afternoon.\n#### 20", "correct": false}
+{"id": "gsm8k-376", "task": "gsm8k", "output": " Half of the class likes blue: 40/2 = <<40/2=20>>20.\nOne-fourth of the remaining likes green: 40 - 40/2 = <<40-20=20>>20.\nThe rest like yellow: 20/4 = <<20/4=5>>5.\n#### 5", "correct": false}
+{"id": "gsm8k-382", "task": "gsm8k", "output": " Anna has twice as many as Axel, so Anna has 50 * 2 = <<50*2=100>>100 pesos. Anna has 40 more gold pesos than she has silver pesos. So Anna has 100 + 40 = <<100+40=140>>140 pesos.\n#### 140", "correct": false}
+{"id": "gsm8k-387", "task": "gsm8k", "output": " 6 * 2 + 8 * 3 = <<6*2+8*3=36+24=60>>60.\n#### 60", "correct": false}
+{"id": "gsm8k-391", "task": "gsm8k", "output": " The ratio is 5:6, so the total is 5+6=11 parts. Each part is 165/11 = <<165/11=15>>15.\nSo, 5 parts is 5*15 = <<5*15=75>>75 and 6 parts is 6*15 = <<6*15=90>>90. So, Sam has 90 - 75 = <<90-75=15>>15 more popsicles than Betty.\n#### 15", "correct": true}
+{"id": "gsm8k-416", "task": "gsm8k", "output": " Let's assume that there are x dromedaries. Then, the number of camels is 2x, since each camel has two humps. The number of heads is 2x + x = 3x. The number of heads is 3x = 180. So x = 60. Therefore, there are 60 dromedaries.\n#### 60", "correct": false}
+{"id": "gsm8k-418", "task": "gsm8k", "output": " Half as big as Timothy's is 1/2 * 1/4 = <<1/2*1/4=1/8>>1/8 of the size of Peter's locker. So, Peter's locker is 1/8 of the size of Timothy's locker. Therefore, Timothy's locker is 1/8 * 1/4 = <<1/8*1/4=1/32>>1/32 of the size of Peter's locker. But Peter's locker is 5 cubic inches, so Timothy's locker is 5 * 1/32 = <<5/32>>5/32.\n#### 5/32", "correct": false}
+{"id": "gsm8k-447", "task": "gsm8k", "output": " Joey has 214 + 26 + 10 = <<214+26+10=250>>250 points.\n#### 250", "correct": false}
+{"id": "gsm8k-454", "task": "gsm8k", "output": " Each day, they eat 4 + 4 = <<4+4=8>>8 apples.\nIn 30 days, they eat 8 x 30 = <<8*30=240>>240 apples.\n#### 240", "correct": false}
+{"id": "gsm8k-488", "task": "gsm8k", "output": " Two thirds of 27 is <<2/3*27=18>>18.\nOne third of 18 is <<1/3*18=6>>6.\n#### 6", "correct": true}
+{"id": "gsm8k-495", "task": "gsm8k", "output": " Charisma walks for 5 minutes per hour she’s at work, so she walks for 5 * 8 = <<5*8=40>>40 minutes.\n#### 40", "correct": false}
+{"id": "gsm8k-499", "task": "gsm8k", "output": " Let x be the number of guests.  The first venue charges $200 + $5x.  The second venue charges $25x.  Setting 200 + 5x = 25x, solve for x.  200 = 20x, so x = 10.  Therefore, the first venue is equal in cost to the second venue when there are 10 guests.\n#### 10", "correct": true}
+{"id": "gsm8k-513", "task": "gsm8k", "output": " 20% of 500 is <<20*500=10,000>>10,000. 20% is 20/100 = 2/10 = 1/5 = 20%.\nSo she spent 20% of 500 = 100.\nThen she spent 25% of the remaining money, which is 25/100 = 1/4 = 25% of 500 = 125.\nSo she had 500 - 100 - 125 = <<500-100-125=275>>275.\n#### 275", "correct": false}
+{"id": "gsm8k-530", "task": "gsm8k", "output": " First, let's find out how many hours he spent working out in the first two weeks. 4 hours per week, so 4 x 2 = <<4*2=8>>8 hours.\nThen, for the next two weeks, he spent 5 hours each week. So 5 x 2 = <<5*2=10>>10 hours.\nThen, for the next week, he spent 6 hours. So 6 x 1 = <<6*1=6>>6 hours.\nAdding them all together: 8 + 10 + 6 = <<8+10+6=24>>24 hours.\n#### 24", "correct": false}
+{"id": "gsm8k-532", "task": "gsm8k", "output": " Let's say that Jame is currently x years old. In 5 years, he will be 27 + 5 = x + 5 = 27 + 5 = 32? Wait, no. Wait, Jame will turn 27 in 5 years. So, 27 + 5 = 32? That would mean that Jame is currently 32 - 5 = 27? That can't be. Wait, no. Wait, Jame will turn 27 in 5 years. That means that Jame is currently 27 - 5 = 22? That can't be. Wait, no. Wait, if Jame is turning 27 in 5 years, then his current age is 27 - 5 = 22? That can't be. Wait, no. Wait, if Jame is turning 27 in 5 years, then his current age is 27 + 5 = 32? That can't be. Wait, no. Wait, if Jame is turning 27 in 5 years, then his current age is 27 + 5 = 32? That can't be. Wait, no. Wait", "correct": false}
+{"id": "gsm8k-533", "task": "gsm8k", "output": " Let's call the cost of the monitor x. The computer cost $1,100. The monitor cost x. The total cost is 1100 + x + 2*monitors = 2400. But wait, the problem says that the computer cost $1,100. The monitor cost x. The total cost is 1100 + x + 2*monitors = 2400. But wait, the problem says that the computer cost $1,100. The monitor cost x. The total cost is 1100 + x + 2*monitors = 2400. But wait, the problem says that the computer cost $1,100. The monitor cost x. The total cost is 1100 + x + 2*monitors = 2400. But wait, the problem says that the computer cost $1,100. The monitor cost x. The total cost is 1100 + x + 2*monitors = 2400. But wait, the problem says that the computer cost $1,100. The monitor cost x. The", "correct": false}
+{"id": "gsm8k-564", "task": "gsm8k", "output": " In the first week, she read 15 minutes x 7 nights = <<15*7=105>>105 minutes.\nIn the second week, she read 100 pages.\nSo total pages read in two weeks is 105 + 100 = <<105+100=205>>205.\n#### 205", "correct": false}
+{"id": "gsm8k-577", "task": "gsm8k", "output": " On days one and two, he saw 50 birds. On day three, none. On days four and five, 120 birds. On day six, 20. On day seven, 90. Total: 50 + 0 + 120 + 20 + 90 = <<50+0+120+20+90=280>>280.\nAverage per day: 280 / 7 = <<280/7=40>>40.\n#### 40", "correct": true}
+{"id": "gsm8k-589", "task": "gsm8k", "output": " Let's say that Martin's weight at the end of 5 weeks is W. In the first case, he loses 1.25 * 5 = <<1.25*5=6.25>>6.25 pounds. In the second case, he gains 1.75 * 5 = <<1.75*5=8.75>>8.75 pounds. The difference in weight is 6.25 - 8.75 = <<6.25-8.75= -2.5>>-2.5 pounds.\n#### -2.5", "correct": false}
+{"id": "gsm8k-594", "task": "gsm8k", "output": " A cup of mushrooms weighs 100 grams and has 3 grams of protein. So, a cup has 100 + 3 = <<100+3=103>>103 grams of mushrooms.\nJohn eats 200 grams of mushrooms every day. So, per day, he gets 200 x 100 = <<200*100=20000>>20000 grams of protein.\nBut he eats 200 grams of mushrooms a day, so he gets 200 x 100 = <<200*100=20000>>20000 grams of protein per week.\n#### 20000", "correct": false}
+{"id": "gsm8k-596", "task": "gsm8k", "output": " First, let’s find out how much money George has already spent. He put down $600, and then he has 2 implants. Each implant has a base price of $2000, so the total cost for the implants is 2 * 2000 = $4000. Then, for the porcelain crown, it costs an extra $500. So, the total cost is 4000 + 500 = $4500. George needs to pay for the dental work, which costs $1000 in total. So, the total amount George has already spent is $600 + $4500 = $5100. Now, he needs to pay $1000 for the dental work. So, how many hours does he need to work? Let’s calculate: 1000 / 15 = <<1000/15=66.666...>>66.666... hours. But since he needs to work an integer number of hours, he needs to work 67 hours. So, the answer is 67 hours.\n#### 67", "correct": false}
+{"id": "gsm8k-617", "task": "gsm8k", "output": " Prince sells 15kg/hour * 10 hours = <<15*10=150>>150kg of meat.\nSo, the bull will be 750kg + 150kg = <<750+150=900>>900kg of meat.\nPrince needs to sell 900kg of meat from the bull. How many days will it take?\nAnswer: 900kg / 15kg/hour = <<900/15=60>>60 days.\n#### 60", "correct": false}
+{"id": "gsm8k-621", "task": "gsm8k", "output": " 6 weeks x 2 hours x 2 sessions = <<6*2*2=24>>24 sessions.\nEach session costs $125 per hour.  So, 24 x 125 = $<<24*125=3000>>3000.\n#### 3000", "correct": true}
+{"id": "gsm8k-635", "task": "gsm8k", "output": " Let's assume that the number of classes that can be signed up is 10. If the cost is more than $10, then they won't sign him up again. So, if the cost is $10, then they will sign him up again. So, if the cost is $10, then they will sign him up again. So, if the cost is $10, then they will sign him up again. So, if the cost is $10, then they will sign him up again. So, if the cost is $10, then they will sign him up again. So, if the cost is $10, then they will sign him up again. So, if the cost is $10, then they will sign him up again. So, if the cost is $10, then they will sign him up again. So, if the cost is $10, then they will sign him up again. So, if the cost is $10, then they will sign him up again. So, if the cost is $10, then they will sign him up again. So, if the cost is $10, then they will sign him up again. So, if", "correct": false}
+{"id": "gsm8k-647", "task": "gsm8k", "output": " First, he can dig 4 feet per hour through soil, and then 4 feet per hour through clay. So, the total time is 24 feet / 4 feet per hour = <<24/4=6>>6 hours. Then, the time to dig through the clay is 8 feet / 4 feet per hour = <<8/4=2>>2 hours. So, total time is 6 + 2 = <<6+2=8>>8 hours.\n#### 8", "correct": false}
+{"id": "gsm8k-649", "task": "gsm8k", "output": " Let the number of likes be x. After 1 week, she received 2000 likes. Three weeks later, the number of likes was 70x. So, 70x = 2000 * 70 = 140,000. So, the number of likes is 140,000 + 20,000 = <<140000+20000=160000>>160,000.\n#### 160000", "correct": false}
+{"id": "gsm8k-655", "task": "gsm8k", "output": " She already finished 1/3 of the paper, which is 1/3 * 15 = <<15/3=5>>5 pages.\nThere are 15 - 5 = <<15-5=10>>10 pages left.\n#### 10", "correct": true}
+{"id": "gsm8k-666", "task": "gsm8k", "output": " Let's say that Arelia has $120. Then, if they decided to add together their money and share equally among them, then Arelia would have 120/2 = $<<120/2=60>>60, and Kassidy would have 60/2 = $<<60/2=30>>30, and Aurelia would have 30/2 = $<<30/2=15>>15. So, Arelia would have 60 + 30 + 15 = $<<60+30+15=105>>105.\n#### 105", "correct": false}
+{"id": "gsm8k-676", "task": "gsm8k", "output": " Let's find the total amount. 1200 is the total amount. 2/5 of the total amount is 1200 * 2/5 = <<1200*2/5=480>>480.\nThen, 2/3 of the remaining amount is 480 * 2/3 = <<480*2/3=320>>320.\nSo, Skyler's investment was 1200 - 480 - 320 = <<1200-480-320=400>>400.\n#### 400", "correct": false}
+{"id": "gsm8k-681", "task": "gsm8k", "output": " Let's say Max has x cookies. Then, Katarina has x - 5 cookies. Also, Max has x + 12 cookies. And, Summer has x + 23 cookies. So, Katarina has 68 = (x + 12) - 5 = x + 7. So, x = 61. Then, Max has 61 + 12 = 73. Summer has 73 + 23 = 96. So, Katarina has 68, Max has 73, Summer has 96. Total is 68 + 73 + 96 = 237.\n#### 237", "correct": false}
+{"id": "gsm8k-682", "task": "gsm8k", "output": " Let the original length be x. Then, the extended length is x + 50% of x = x + 0.5x = 1.5x. The final design is 140cm. So, 1.5x = 140. Solving for x, we get x = 140 / 1.5 = 93.33... cm. But since the question is asking for the original length, which is x, so the answer is 93.33 cm. But since the question is in centimeters, maybe it's 93.33 cm, which is 93 and 1/3 cm. But maybe the answer is expected as a whole number? Let me check: 140 divided by 1.5 is indeed 93.33... So the answer is 93.33 cm. But maybe the problem expects rounding? Or maybe there's a mistake here. Let me check the problem again. The problem says: \"She also adds 20cm to the bottom of the dress with a lace trim.\" So the total length is 140cm. The original length is x, extended by", "correct": false}
+{"id": "gsm8k-724", "task": "gsm8k", "output": " Let's first find out how many pizzas Bryce and four friends each ordered. Each pizza had 12 slices, so 12 * 5 = 60 slices in total. Then, Bryce and two friends ate 2/3 of their pizzas. Each pizza has 12 slices, so 2/3 of 60 is 40 slices. So, 60 - 40 = 20 slices left.\n#### 20", "correct": false}
+{"id": "gsm8k-733", "task": "gsm8k", "output": " 20 divided by 4 = <<20/4=5>>5.\n#### 5", "correct": true}
+{"id": "gsm8k-788", "task": "gsm8k", "output": " John is missing $300 - $50 = $<<300-50=250>>250.\n#### 250", "correct": false}
+{"id": "gsm8k-801", "task": "gsm8k", "output": " First, find the number of students: 40 classes * 25 students = <<40*25=1000>>1000 students.\nThen, find the number of trees planted: 1000 students * 2 trees per student = <<1000*2=2000>>2000 trees.\nThen, find the number of teachers: 40 classes * 3 teachers = <<40*3=120>>120 teachers.\nThen, find the number of trees planted: 120 teachers * 2 trees per teacher = <<120*2=240>>240 trees.\n#### 240", "correct": false}
+{"id": "gsm8k-816", "task": "gsm8k", "output": " John spent 3 goats x $500 each = 3 x 500 = $<<1500>>1500.\nJohn spent 2 cows x $1500 each = 2 x 1500 = $<<3000>>3000.\nTotal money spent: 1500 + 3000 = $<<4500>>4500.\n#### 4500", "correct": true}
+{"id": "gsm8k-829", "task": "gsm8k", "output": " First week: 50,000 bars.\nSecond week: 50,000 / 2 = <<50000/2=25000>>25,000 bars.\nThird week: 50,000 * 3 = <<50000*3=150000>>150,000 bars.\nFourth week: 50,000 * 3 = <<50000*3=150000>>150,000 bars.\n#### 150,000", "correct": false}
+{"id": "gsm8k-861", "task": "gsm8k", "output": " Let's say Claire earns 1 badge a month.  It takes Amber twice as long to earn a badge, so she earns 1/2 = 0.5 months.  So Amber earns 1/2 = 0.5 badges a month.  Wendy earns three times the amount of badges as Claire in the same time frame.  So, in a year, she earns 3 * 1 = 3 badges a month.  So, in a year, she earns 3 * 12 = 36 badges.  Amber earns 12 * 0.5 = 6 badges.  So, Wendy's total is 36 - 6 = 30 badges.  So, the answer is 30.\n#### 30", "correct": true}
+{"id": "gsm8k-889", "task": "gsm8k", "output": " The number of petals on the orchids is 5 x 5 = <<5*5=25>>25.\nThe number of petals on the daisies is 4 x 10 = <<4*10=40>>40.\nThe difference in petals is 40 - 25 = <<40-25=15>>15.\n#### 15", "correct": true}
+{"id": "gsm8k-906", "task": "gsm8k", "output": " Tim has 7 blue and 9 red. Total is 7 + 9 = 16. 3 blue and 1/3 red is 1 blue and 1/3 red = 1 + 1/3 = 4/3. So 16 - 4/3 = 12/3 - 4/3 = 8/3. So there are 8/3 red and blue shoe boxes left.\n#### 8/3", "correct": false}
+{"id": "gsm8k-911", "task": "gsm8k", "output": " Colby gets paid 0.20 x 10 = $<<0.20*10=2.0>>2.0 dollars per hour.\nIn an eight-hour workday, he gets paid 8 x 2 = $<<8*2=16.0>>16.0 dollars.\n#### 16", "correct": false}
+{"id": "gsm8k-917", "task": "gsm8k", "output": " Kira bought 3 + 5 + 6 = <<3+5+6=14>>14 pieces of fruit.\nLola ate 2 pieces, so 14 - 2 = <<14-2=12>>12 pieces left.\n#### 12", "correct": true}
+{"id": "gsm8k-966", "task": "gsm8k", "output": " 1/2 a dozen is 6 dozen.  6 dozen is 6 x 12 = <<6*12=72>>72.\nThen, she had 72 - 1/2 a dozen = 72 - 6 = <<72-6=66>>66.\nThen, she had 66 - 1 1/2 dozen = 66 - 6 = <<66-6=60>>60.\n#### 60", "correct": false}
+{"id": "gsm8k-975", "task": "gsm8k", "output": " Let's say Richard has 10 cherries. Then, Robert has 10 + 10 = 20 cherries. So, Robert has 20 and Jerry has 10. So, Robert has 20 - 10 = 10 more cherries than Jerry.\n#### 10", "correct": false}
+{"id": "gsm8k-976", "task": "gsm8k", "output": " On Saturday, he sold 10 + 4 = <<10+4=14>>14 boxes of gingerbread.\nOn Sunday, he sold 5 + 15 = <<5+15=20>>20 boxes of apple pie.\nSo, the total number of boxes sold is 14 + 20 = <<14+20=34>>34 boxes.\nThe total number of boxes sold is 34 * 6 = <<34*6=204>>204.\n#### 204", "correct": false}
+{"id": "gsm8k-995", "task": "gsm8k", "output": " Adam contributed $6 + $6*2 = <<6+12=18>>18.\n#### 18", "correct": false}
+{"id": "gsm8k-1002", "task": "gsm8k", "output": " Let's convert the numbers to fractions. Three and a half is 7/2, and four and a half is 9/2. So 7/2 + 9/2 = 16/2 = 8. So 8 boxes.\n#### 8", "correct": true}
+{"id": "gsm8k-1010", "task": "gsm8k", "output": " 10 laps in one hour.  Let's say she ran 10 laps.  Then, 10 + 4 = <<10+4=14>>14 laps for Trey.  Then, 14/2 = <<14/2=7>>7 for Shaelyn.  Then, 7 + 2 = <<7+2=9>>9 for Quinn.  So, 9 more laps than Bethany.\n#### 9", "correct": false}
+{"id": "gsm8k-1033", "task": "gsm8k", "output": " First, she spends 6 hours a day for 3 days: 6 x 3 = <<6*3=18>>18 hours.\nThen, she is paid $15 per day: 15 x 18 = <<15*18=270>>270.\nThen, she has to pay $3 for parking each day: 3 x 18 = <<3*18=54>>54.\nSo, she made $270 - $54 = <<270-54=216>>216 per hour after expenses.\n#### 216", "correct": false}
+{"id": "gsm8k-1040", "task": "gsm8k", "output": " Let's first find how many letters were delivered on Tuesday. One-fifth as many as Monday is 425 * 1/5 = <<425/5=85>>85. Then, 17 more than that is 85 + 17 = <<85+17=102>>102 letters delivered on Tuesday.\nOn Wednesday, they delivered 5 more than twice as many as they delivered on Tuesday. Twice as many as Tuesday is 2 * 102 = <<2*102=204>>204. So, 5 more than that is 204 + 5 = <<204+5=209>>209 letters delivered on Wednesday.\nSo, the total delivered on Monday - Wednesday is 425 + 102 + 209 = <<425+102+209=736>>736 letters.\n#### 736", "correct": true}
+{"id": "gsm8k-1047", "task": "gsm8k", "output": " Let the number of balls in the second set be x. Then, the number of balls in the first set is x + 4. The number of balls in the third set is half as many as in the second, so it is x/2. The total is 19. So, x + 4 + x/2 + x/2 = 19. Let me solve this equation: x + 4 + x + x = 19. Let me solve this equation: 2x + 4 = 19. 2x = 15. x = 7.5. That can't be. So, maybe the problem is that the first set is x + 4, the second is x, the third is x/2. Then total is x + 4 + x + x/2 = 19. So, 2x + 4 + x/2 = 19. Let me solve this equation: 2x + 4 + x/2 = 19. Multiply all terms by 2: 4x + 8 + x = 38. So 5x = 30. x = 6. So, x =", "correct": false}
+{"id": "gsm8k-1067", "task": "gsm8k", "output": " Small coupons: 700 x 5 = <<700*5=3500>>3500 cents.\nBig coupons: Twice as many as small coupons: 700 x 2 = <<700*2=1400>>1400 cents.\nTotal: 3500 + 1400 = <<3500+1400=4900>>4900 cents.\n#### 4900", "correct": false}
+{"id": "gsm8k-1074", "task": "gsm8k", "output": " Half of a 500 piece puzzle is 250. Then, another 500 pieces, so total is 250 + 500 = <<250+500=750>>750.\n#### 750", "correct": true}
+{"id": "gsm8k-1090", "task": "gsm8k", "output": " First child is 6 feet.  6 feet is 72 inches.  Second child is 72 + 2 = 74 inches.  Third child is 74 - 5 = 69 inches.  Fourth child is 69 + 3 = 72 inches.\n#### 72", "correct": true}
+{"id": "gsm8k-1106", "task": "gsm8k", "output": " 100 centimeters is 100/5 = <<100/5=20>>20 centimeters per cut.\nEach cut is divided into 5 equal parts, so each cut is 20/5 = <<20/5=4>>4 centimeters.\n#### 4", "correct": false}
+{"id": "gsm8k-1107", "task": "gsm8k", "output": " 40% of the population is 240 boys. So, 40% of 240 = <<40%*240=96>>96.\nSo, the total population is 96 + 240 = <<96+240=336>>336.\n#### 336", "correct": false}
+{"id": "gsm8k-1112", "task": "gsm8k", "output": " 12 kg of apples. Peter wants 1/4 of that, which is 3 kg. Paul wants 1/3 of that, which is 4 kg. Together, they want 3 + 4 = 7 kg. So the remaining is 12 - 7 = <<12-7=5>>5 kg.\n#### 5", "correct": true}
+{"id": "gsm8k-1120", "task": "gsm8k", "output": " 2 hours x 2 = <<2*2=4>>4 hours.\n2 hours x 70 = <<2*70=140>>140 miles.\n#### 140", "correct": false}
+{"id": "gsm8k-1121", "task": "gsm8k", "output": " Let's say that Brian walks x miles each day. Then, Sofie walks 2x miles each day. In 7 days, Sofie walks 2x * 7 = 14x miles. Since Sofie walks twice as far as Brian, 14x = 2x * 7 = 14x. So, Brian walks x miles each day. So, in 7 days, Brian walks x * 7 = 7x miles.\n#### 7x", "correct": false}
+{"id": "gsm8k-1123", "task": "gsm8k", "output": " Kory’s dog is 60 pounds. Elijah’s dog is one-fourth the weight of Kory’s dog, so it is 60/4 = <<60/4=15>>15 pounds.\nAnother dog is half the weight of Kory’s dog, so it is 60/2 = <<60/2=30>>30 pounds.\nSo, Kory’s dog is 60, Elijah’s dog is 15, and another dog is 30. Total weight is 60 + 15 + 30 = <<60+15+30=105>>105.\n#### 105", "correct": true}
+{"id": "gsm8k-1128", "task": "gsm8k", "output": " Let’s say that two years ago, Liam was 16 - 2 = <<16-2=14>>14 years old. At that time, Vince was 14 years old. So, two years ago, Liam was twice as old as Vince. That means, two years ago, Liam was 14, and Vince was 14 - 2 = <<14-2=12>>12 years old. So, now, Liam is 16, and Vince is 12. So, the answer is 12 years old.\n#### 12", "correct": false}
+{"id": "gsm8k-1131", "task": "gsm8k", "output": " First, 80% of 80 is 64.  Then, 64 is cut into 4-foot logs.  64 / 4 = <<64/4=16>>16 logs.\nFrom each log, he cuts 5 planks.  So, 16 x 5 = <<16*5=80>>80 planks.\nHe sells each plank for $1.2.  So, 80 x $1.2 = <<80*1.2=96>>96.\n#### 96", "correct": true}
+{"id": "gsm8k-1146", "task": "gsm8k", "output": " Adam has $100. He can buy rocks for $5 each, so he can buy 100 / 5 = <<100/5=20>>20 rocks.\nHe sells them for $7 each, so he sells 20 * 7 = <<20*7=140>>140 rocks.\nHe invested all his money in the rock stand, but only sold 60% of his inventory. So he lost 100% of his money, which is 100% of his money, so he lost 100% of his money, which is 100% of his money, so he lost 100% of his money, which is 100% of his money, so he lost 100% of his money, which is 100% of his money, so he lost 100% of his money, which is 100% of his money, so he lost 100% of his money, which is 100% of his money, so he lost 100% of his money, which is 100% of his money", "correct": false}
+{"id": "gsm8k-1162", "task": "gsm8k", "output": " Let's define the age of Geb as G. Then, according to the problem, Geb is 10 less than half the age of Haley. So, G = (1/2) * Haley's age - 10. Since Haley is 26, then (1/2)*26 = 13, so G = 13 - 10 = 3. So, Geb is 3 years old.\n#### 3", "correct": true}
+{"id": "gsm8k-1178", "task": "gsm8k", "output": " Let's say Mike bought x face masks. Then, Johnny bought 2 more than thrice as many as Mike. So, Johnny bought 2*(3x) = 6x face masks. But Mike bought 5 face masks, so 6x = 5 + 2x? Wait, no. Wait, let me think again. Let me set up the equation properly.\n\nLet me define variables:\n\nLet Mike buy x face masks. Then, Johnny bought 2 more than thrice as many as Mike. So, Johnny bought 2*(3x) = 6x face masks. But Mike bought 5 face masks, so the total number of face masks bought by Mike and Johnny is 5 + 6x. But the problem says that Johnny bought 2 more than thrice as many as Mike. So, if Mike bought x, then Johnny bought 2*(3x) = 6x. So total is x + 6x = 7x. But the problem says that Mike bought 5 face masks. So, 7x = 5? No, that can't be. Wait, maybe I got the equation wrong.\n\nWait, let me rephrase: Let's say Mike bought x face masks", "correct": false}
+{"id": "gsm8k-1194", "task": "gsm8k", "output": " First, calculate how many gallons of blood each whale has. 40 gallons per whale * 40 = <<40*40=1600>>1600.\nThen, calculate how many gallons of blood each shark has. 3 times as much as a whale, so 3 * 40 = <<3*40=120>>120.\nThen, calculate how many gallons of blood ten sharks have. 10 * 120 = <<10*120=1200>>1200.\n#### 1200", "correct": true}
+{"id": "gsm8k-1203", "task": "gsm8k", "output": " First, find the height of the house. 7 times as high as he is, so 60 * 7 = <<60*7=420>>420 inches.\nThen, the floor to the ceiling on the first floor is thrice as high as he is. So, 3 times as high as 60 inches, which is <<3*60=180>>180 inches.\nThen, the height of the roof from the second floor's floor is 420 - 180 = <<420-180=240>>240 inches.\n#### 240", "correct": true}
+{"id": "gsm8k-1221", "task": "gsm8k", "output": " First, find out how many pounds of meat he needs to make 80 meatballs. Since he gets sixteen meatballs from each pound, he needs 80 / 16 = <<80/16=5>>5 pounds of meat.\nThen, he needs to find out how many tablespoons of seasoning he needs. Since he adds two tablespoons of seasoning for every pound of meat, he needs 5 x 2 = <<5*2=10>>10.\n#### 10", "correct": true}
+{"id": "gsm8k-1232", "task": "gsm8k", "output": " Eve had 20 pomelos. 1/4 of 20 is <<20/4=5>>5.\nSo she gave away 5 + 5 = <<5+5=10>>10.\n#### 10", "correct": false}
+{"id": "gsm8k-1235", "task": "gsm8k", "output": " 50km/hr * 3 days = <<50*3=150>>150 km.\nSo, 150/6000 = <<150/6000=0.025>>2.5%.\n#### 2.5", "correct": false}
+{"id": "gsm8k-1251", "task": "gsm8k", "output": " First side: 5 minutes.\nSecond and third sides: 2*5=10 minutes each. So total for second and third sides: 10 + 10 = 20 minutes.\nFourth side: half as long as first, so half of 5 minutes is 2.5 minutes.\nFifth side: 5 minutes.\nNow, the sixth side is the same as the first side, so total time is 5 + 20 + 2.5 + 5 = <<5+20+2.5+5=32.5>>32.5 minutes.\n#### 32.5", "correct": false}
+{"id": "gsm8k-1253", "task": "gsm8k", "output": " Tim spends 6 hours a day answering calls.  6 hours is 6 * 60 = 360 minutes.\nIt takes 15 minutes per call.  So, 360 / 15 = <<360/15=24>>24 calls.\n#### 24", "correct": false}
+{"id": "gsm8k-1254", "task": "gsm8k", "output": " 12 - 7 = <<12-7=5>>5 minutes.\n#### 5", "correct": false}
+{"id": "gsm8k-1266", "task": "gsm8k", "output": " 3 German Shepherds x 5 = <<3*5=15>>15. 2 Bulldogs x 3 = <<2*3=6>>6. Total is 15 + 6 = <<15+6=21>>21.\n#### 21", "correct": false}
+{"id": "gsm8k-1280", "task": "gsm8k", "output": " Half of Steve's time is 10/2 = <<10/2=5>>5 hours.\nAnna put 2 hours more than half of that, so 5 + 2 = <<5+2=7>>7 hours.\n#### 7", "correct": true}
+{"id": "gsm8k-1311", "task": "gsm8k", "output": " 3 feet of line for every foot of dock. So, 3 feet of line for 200 feet of dock. 3*200 = <<3*200=600>>600 feet of line.\n#### 600", "correct": false}
+{"id": "tqa-37", "task": "triviaqa", "output": " The Beatles", "correct": false}
+{"id": "tqa-49", "task": "triviaqa", "output": " The Great Depression", "correct": false}
+{"id": "tqa-407", "task": "triviaqa", "output": " A penguin", "correct": false}
+{"id": "tqa-432", "task": "triviaqa", "output": " The winner was the same as the previous year?", "correct": false}
+{"id": "tqa-460", "task": "triviaqa", "output": " The Krusty Krab", "correct": false}
+{"id": "tqa-531", "task": "triviaqa", "output": " Goud", "correct": false}
+{"id": "tqa-708", "task": "triviaqa", "output": " Denmark", "correct": false}
+{"id": "tqa-746", "task": "triviaqa", "output": " Brain", "correct": true}
+{"id": "tqa-874", "task": "triviaqa", "output": " Emily Brontes", "correct": false}
+{"id": "tqa-1033", "task": "triviaqa", "output": " Elizabeth Taylor", "correct": true}
+{"id": "tqa-1080", "task": "triviaqa", "output": " The Road", "correct": false}
+{"id": "tqa-1192", "task": "triviaqa", "output": " The Hon. Sir George Gershwin", "correct": false}
+{"id": "tqa-1266", "task": "triviaqa", "output": " The Lion King", "correct": false}
+{"id": "tqa-1290", "task": "triviaqa", "output": " The 1999 Clue", "correct": false}
+{"id": "tqa-1326", "task": "triviaqa", "output": " The Love", "correct": false}
+{"id": "tqa-1482", "task": "triviaqa", "output": " April", "correct": false}
+{"id": "tqa-1497", "task": "triviaqa", "output": " Subcutaneous", "correct": false}
+{"id": "tqa-1902", "task": "triviaqa", "output": " India", "correct": false}
+{"id": "tqa-2000", "task": "triviaqa", "output": " The Matrix", "correct": false}
+{"id": "tqa-2001", "task": "triviaqa", "output": " A duck", "correct": false}
+{"id": "tqa-2037", "task": "triviaqa", "output": " Olivia de Alfa", "correct": false}
+{"id": "tqa-2040", "task": "triviaqa", "output": " Archery", "correct": true}
+{"id": "tqa-2063", "task": "triviaqa", "output": " The Red Dwarf", "correct": false}
+{"id": "tqa-2263", "task": "triviaqa", "output": " Lina", "correct": false}
+{"id": "tqa-2293", "task": "triviaqa", "output": " The Beatles", "correct": false}
+{"id": "tqa-2358", "task": "triviaqa", "output": " Antico", "correct": false}
+{"id": "tqa-2416", "task": "triviaqa", "output": " The Coca-Cola Company", "correct": false}
+{"id": "tqa-2424", "task": "triviaqa", "output": " Blue", "correct": false}
+{"id": "tqa-2591", "task": "triviaqa", "output": " Ringer", "correct": false}
+{"id": "tqa-2629", "task": "triviaqa", "output": " John Cleary", "correct": false}
+{"id": "tqa-2636", "task": "triviaqa", "output": " Java", "correct": true}
+{"id": "tqa-2645", "task": "triviaqa", "output": " \"The crown is in the hand\"", "correct": false}
+{"id": "tqa-2699", "task": "triviaqa", "output": " Fibonacci", "correct": true}
+{"id": "tqa-2943", "task": "triviaqa", "output": " Rudder", "correct": false}
+{"id": "tqa-2988", "task": "triviaqa", "output": " Oxidizing agent", "correct": false}
+{"id": "tqa-2999", "task": "triviaqa", "output": " \"L'acqua\" (water)", "correct": false}
+{"id": "tqa-3002", "task": "triviaqa", "output": " France", "correct": true}
+{"id": "tqa-3056", "task": "triviaqa", "output": " Indonesia", "correct": false}
+{"id": "tqa-3107", "task": "triviaqa", "output": " The Himalayas", "correct": false}
+{"id": "tqa-3236", "task": "triviaqa", "output": " The Big Bang", "correct": false}
+{"id": "tqa-3296", "task": "triviaqa", "output": " The American Revolution", "correct": false}
+{"id": "tqa-3299", "task": "triviaqa", "output": " Munchkin", "correct": false}
+{"id": "tqa-3306", "task": "triviaqa", "output": " Chancellor of the Duchy of York", "correct": false}
+{"id": "tqa-3325", "task": "triviaqa", "output": " Ruby", "correct": false}
+{"id": "tqa-3573", "task": "triviaqa", "output": " France", "correct": false}
+{"id": "tqa-3779", "task": "triviaqa", "output": " The Congo", "correct": false}
+{"id": "tqa-3802", "task": "triviaqa", "output": " Prince Rainier of Monaco", "correct": false}
+{"id": "tqa-3838", "task": "triviaqa", "output": " Football", "correct": false}
+{"id": "tqa-3840", "task": "triviaqa", "output": " Narrative", "correct": false}
+{"id": "tqa-3922", "task": "triviaqa", "output": " Murder", "correct": false}
+{"id": "tqa-4059", "task": "triviaqa", "output": " English", "correct": false}
+{"id": "tqa-4077", "task": "triviaqa", "output": " The bar", "correct": false}
+{"id": "tqa-4089", "task": "triviaqa", "output": " \"The Way We Walked\"", "correct": false}
+{"id": "tqa-4267", "task": "triviaqa", "output": " Red", "correct": true}
+{"id": "tqa-4336", "task": "triviaqa", "output": " Loretta", "correct": false}
+{"id": "tqa-4418", "task": "triviaqa", "output": " Tang", "correct": false}
+{"id": "tqa-4563", "task": "triviaqa", "output": " Blue", "correct": false}
+{"id": "tqa-4579", "task": "triviaqa", "output": " The Beatles", "correct": false}
+{"id": "tqa-4669", "task": "triviaqa", "output": " Poland", "correct": false}
+{"id": "tqa-4795", "task": "triviaqa", "output": " Rings", "correct": false}
+{"id": "tqa-4815", "task": "triviaqa", "output": " A book", "correct": false}
+{"id": "tqa-4900", "task": "triviaqa", "output": " 32", "correct": true}
+{"id": "tqa-5027", "task": "triviaqa", "output": " The whale", "correct": false}
+{"id": "tqa-5184", "task": "triviaqa", "output": " Yellowstone National Park", "correct": true}
+{"id": "tqa-5245", "task": "triviaqa", "output": " Actor", "correct": false}
+{"id": "tqa-5306", "task": "triviaqa", "output": " Apennine", "correct": false}
+{"id": "tqa-5551", "task": "triviaqa", "output": " The New York Times", "correct": false}
+{"id": "tqa-5586", "task": "triviaqa", "output": " France", "correct": false}
+{"id": "tqa-5728", "task": "triviaqa", "output": " The Dumbler", "correct": false}
+{"id": "tqa-5908", "task": "triviaqa", "output": " The African Elephant", "correct": false}
+{"id": "tqa-6025", "task": "triviaqa", "output": " Henry VIII", "correct": false}
+{"id": "tqa-6061", "task": "triviaqa", "output": " The Star-Spangled Banner", "correct": false}
+{"id": "tqa-6118", "task": "triviaqa", "output": " Rio de Janeiro", "correct": false}
+{"id": "tqa-6177", "task": "triviaqa", "output": " The Birth of Dances", "correct": false}
+{"id": "tqa-6205", "task": "triviaqa", "output": " The Siegfried Line", "correct": false}
+{"id": "tqa-6238", "task": "triviaqa", "output": " Apple", "correct": false}
+{"id": "tqa-6260", "task": "triviaqa", "output": " Alsace-Moselle", "correct": false}
+{"id": "tqa-6301", "task": "triviaqa", "output": " Michelle", "correct": false}
+{"id": "tqa-6376", "task": "triviaqa", "output": " The Eagles", "correct": false}
+{"id": "tqa-6532", "task": "triviaqa", "output": " Guru Grantham", "correct": false}
+{"id": "tqa-6658", "task": "triviaqa", "output": " Time", "correct": false}
+{"id": "tqa-6665", "task": "triviaqa", "output": " Ravi Boparai", "correct": false}
+{"id": "tqa-6700", "task": "triviaqa", "output": " Marie Curie", "correct": false}
+{"id": "tqa-6900", "task": "triviaqa", "output": " Shakespeare", "correct": false}
+{"id": "tqa-7051", "task": "triviaqa", "output": " Independence Day", "correct": false}
+{"id": "tqa-7157", "task": "triviaqa", "output": " Yorkshire", "correct": false}
+{"id": "tqa-7168", "task": "triviaqa", "output": " The Twilight Zone", "correct": false}
+{"id": "tqa-7224", "task": "triviaqa", "output": " Miguel de Cervantes", "correct": true}
+{"id": "tqa-7236", "task": "triviaqa", "output": " The wedge", "correct": false}
+{"id": "tqa-7264", "task": "triviaqa", "output": " Barcelona", "correct": false}
+{"id": "tqa-7310", "task": "triviaqa", "output": " Aluminum", "correct": false}
+{"id": "tqa-7716", "task": "triviaqa", "output": " Beethoven", "correct": false}
+{"id": "tqa-7818", "task": "triviaqa", "output": " David", "correct": false}
+{"id": "tqa-7845", "task": "triviaqa", "output": " The Battle of Hastings", "correct": false}
+{"id": "tqa-7868", "task": "triviaqa", "output": " 1460", "correct": false}
+{"id": "tqa-7933", "task": "triviaqa", "output": " President of Chile", "correct": false}
+{"id": "tqa-7963", "task": "triviaqa", "output": " David Soul and David Soul", "correct": false}
+{"id": "tqa-7992", "task": "triviaqa", "output": " Socrates", "correct": false}
+{"id": "tqa-8208", "task": "triviaqa", "output": " Caesar", "correct": false}
+{"id": "tqa-8214", "task": "triviaqa", "output": " Rose", "correct": false}
+{"id": "tqa-8222", "task": "triviaqa", "output": " The Godfather", "correct": false}
+{"id": "tqa-8484", "task": "triviaqa", "output": " Rome", "correct": false}
+{"id": "tqa-8517", "task": "triviaqa", "output": " The original", "correct": false}
+{"id": "tqa-8521", "task": "triviaqa", "output": " Muhammad", "correct": false}
+{"id": "tqa-8524", "task": "triviaqa", "output": " United States", "correct": false}
+{"id": "tqa-8535", "task": "triviaqa", "output": " Maria Popova", "correct": false}
+{"id": "tqa-8881", "task": "triviaqa", "output": " The Beatles", "correct": false}
+{"id": "tqa-9018", "task": "triviaqa", "output": " The Hatt", "correct": false}
+{"id": "tqa-9031", "task": "triviaqa", "output": " The Great Britain", "correct": false}
+{"id": "tqa-9203", "task": "triviaqa", "output": " Poland", "correct": false}
+{"id": "tqa-9235", "task": "triviaqa", "output": " James Bond", "correct": false}
+{"id": "tqa-9425", "task": "triviaqa", "output": " Paris", "correct": true}
+{"id": "tqa-9433", "task": "triviaqa", "output": " False", "correct": true}
+{"id": "tqa-9513", "task": "triviaqa", "output": " R. Kelly", "correct": false}
+{"id": "tqa-9538", "task": "triviaqa", "output": " George H. W. Bush", "correct": false}
+{"id": "tqa-9865", "task": "triviaqa", "output": " The United States", "correct": false}
+{"id": "tqa-9877", "task": "triviaqa", "output": " Radar", "correct": true}
+{"id": "tqa-9938", "task": "triviaqa", "output": " Ronald Reagan", "correct": false}
+{"id": "tqa-10162", "task": "triviaqa", "output": " Eisenhower", "correct": false}
+{"id": "tqa-10167", "task": "triviaqa", "output": " 20", "correct": false}
+{"id": "tqa-10205", "task": "triviaqa", "output": " Simone Biles", "correct": false}
+{"id": "tqa-10361", "task": "triviaqa", "output": " The Three Stooges", "correct": false}
+{"id": "tqa-10388", "task": "triviaqa", "output": " New Guinea", "correct": false}
+{"id": "tqa-10487", "task": "triviaqa", "output": " Aluminum", "correct": false}
+{"id": "tqa-10627", "task": "triviaqa", "output": " London", "correct": false}
+{"id": "tqa-10656", "task": "triviaqa", "output": " Apple", "correct": false}
+{"id": "tqa-10819", "task": "triviaqa", "output": " Hawaii", "correct": true}
+{"id": "tqa-10896", "task": "triviaqa", "output": " James Bond", "correct": false}
+{"id": "tqa-10903", "task": "triviaqa", "output": " The Godfather", "correct": false}
+{"id": "tqa-10916", "task": "triviaqa", "output": " April", "correct": false}
+{"id": "tqa-10957", "task": "triviaqa", "output": " Tolstov", "correct": false}
+{"id": "tqa-10986", "task": "triviaqa", "output": " Italy", "correct": false}
+{"id": "tqa-11007", "task": "triviaqa", "output": " John F. Kennedy International Airport", "correct": true}
+{"id": "tqa-11216", "task": "triviaqa", "output": " France", "correct": false}
+{"id": "tqa-11478", "task": "triviaqa", "output": " India", "correct": false}
+{"id": "tqa-11541", "task": "triviaqa", "output": " Oui Oui", "correct": false}
+{"id": "tqa-11593", "task": "triviaqa", "output": " The London Eye", "correct": false}
+{"id": "tqa-11703", "task": "triviaqa", "output": " India and Pakistan", "correct": true}
+{"id": "tqa-11710", "task": "triviaqa", "output": " Spanish", "correct": false}
+{"id": "tqa-11732", "task": "triviaqa", "output": " Tokyo", "correct": true}
+{"id": "tqa-11749", "task": "triviaqa", "output": " Admiral", "correct": false}
+{"id": "tqa-11770", "task": "triviaqa", "output": " The answer is: The actor is: James Dean", "correct": false}
+{"id": "tqa-12128", "task": "triviaqa", "output": " 2", "correct": false}
+{"id": "tqa-12191", "task": "triviaqa", "output": " A bead", "correct": false}
+{"id": "tqa-12407", "task": "triviaqa", "output": " Panderi", "correct": false}
+{"id": "tqa-12612", "task": "triviaqa", "output": " 1819", "correct": false}
+{"id": "tqa-12623", "task": "triviaqa", "output": " The Godfather", "correct": false}
+{"id": "tqa-12714", "task": "triviaqa", "output": " The Thames", "correct": false}
+{"id": "tqa-12735", "task": "triviaqa", "output": " Entropy", "correct": true}
+{"id": "tqa-12819", "task": "triviaqa", "output": " The Big Bang", "correct": false}
+{"id": "tqa-12821", "task": "triviaqa", "output": " New Year's Eve", "correct": false}
+{"id": "tqa-13068", "task": "triviaqa", "output": " 2", "correct": false}
+{"id": "tqa-13268", "task": "triviaqa", "output": " Mathematics", "correct": false}
+{"id": "tqa-13431", "task": "triviaqa", "output": " The knight and the bishop", "correct": false}
+{"id": "tqa-13579", "task": "triviaqa", "output": " Hareton and Hindley", "correct": false}
+{"id": "tqa-13743", "task": "triviaqa", "output": " Luke", "correct": false}
+{"id": "tqa-13781", "task": "triviaqa", "output": " Nigeria", "correct": false}
+{"id": "tqa-13946", "task": "triviaqa", "output": " The 1976 Summer Olympics", "correct": false}
+{"id": "tqa-13963", "task": "triviaqa", "output": " The King of England", "correct": false}
+{"id": "tqa-14226", "task": "triviaqa", "output": " Ford", "correct": false}
+{"id": "tqa-14289", "task": "triviaqa", "output": " Mars", "correct": false}
+{"id": "tqa-14493", "task": "triviaqa", "output": " The Christ", "correct": false}
+{"id": "tqa-14506", "task": "triviaqa", "output": " The Sutherland Brothers", "correct": false}
+{"id": "tqa-14581", "task": "triviaqa", "output": " Yenisey", "correct": false}
+{"id": "tqa-14679", "task": "triviaqa", "output": " The West", "correct": false}
+{"id": "tqa-14684", "task": "triviaqa", "output": " Admiral", "correct": false}
+{"id": "tqa-14764", "task": "triviaqa", "output": " John F. Kennedy", "correct": false}
+{"id": "tqa-15006", "task": "triviaqa", "output": " Michelle", "correct": false}
+{"id": "tqa-15306", "task": "triviaqa", "output": " Ravi Boparai", "correct": false}
+{"id": "tqa-15408", "task": "triviaqa", "output": " John Lewis", "correct": false}
+{"id": "tqa-15454", "task": "triviaqa", "output": " A thief", "correct": false}
+{"id": "tqa-15471", "task": "triviaqa", "output": " The Tercel", "correct": false}
+{"id": "tqa-15614", "task": "triviaqa", "output": " The Red Sea", "correct": false}
+{"id": "tqa-15617", "task": "triviaqa", "output": " Brazil", "correct": false}
+{"id": "tqa-15630", "task": "triviaqa", "output": " John Doe", "correct": false}
+{"id": "tqa-15703", "task": "triviaqa", "output": " 19th century", "correct": false}
+{"id": "tqa-15788", "task": "triviaqa", "output": " Barcelona", "correct": false}
+{"id": "tqa-15922", "task": "triviaqa", "output": " The Birth of the Nation", "correct": false}
+{"id": "tqa-15939", "task": "triviaqa", "output": " The first car", "correct": false}
+{"id": "tqa-16032", "task": "triviaqa", "output": " The Wainwright", "correct": false}
+{"id": "tqa-16143", "task": "triviaqa", "output": " John F. Kennedy", "correct": false}
+{"id": "tqa-16173", "task": "triviaqa", "output": " France", "correct": false}
+{"id": "tqa-16503", "task": "triviaqa", "output": " Floyd", "correct": false}
+{"id": "tqa-16537", "task": "triviaqa", "output": " The portrait of the King", "correct": false}
+{"id": "tqa-16644", "task": "triviaqa", "output": " London", "correct": false}
+{"id": "tqa-16665", "task": "triviaqa", "output": " William O'Brien", "correct": false}
+{"id": "tqa-16753", "task": "triviaqa", "output": " The Honors of the Navy", "correct": false}
+{"id": "tqa-17083", "task": "triviaqa", "output": " Salt Lake City", "correct": true}
+{"id": "tqa-17098", "task": "triviaqa", "output": " Colorado River", "correct": false}
+{"id": "tqa-17189", "task": "triviaqa", "output": " Massachusetts", "correct": false}
+{"id": "tqa-17349", "task": "triviaqa", "output": " William Bentham", "correct": false}
+{"id": "tqa-17451", "task": "triviaqa", "output": " The Silk Road", "correct": false}
+{"id": "tqa-17504", "task": "triviaqa", "output": " Michael Jordan", "correct": false}
+{"id": "tqa-17704", "task": "triviaqa", "output": " Sinclair Lewis", "correct": false}
+{"id": "tqa-17714", "task": "triviaqa", "output": " 12", "correct": false}
+{"id": "tqa-17792", "task": "triviaqa", "output": " A bear", "correct": true}
+{"id": "tqa-17833", "task": "triviaqa", "output": " A car", "correct": false}
+{"id": "tqa-17836", "task": "triviaqa", "output": " Nigeria", "correct": false}
+{"id": "tqa-17931", "task": "triviaqa", "output": " The Roaming Gnome", "correct": true}
+{"id": "tqa-17938", "task": "triviaqa", "output": " The juice arm", "correct": false}
