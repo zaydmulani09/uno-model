@@ -1,0 +1,51 @@
+## before cleanup Tue Sep  9 10:14:29 AM UTC 2025
+2.0G	/home/arduino/uno-model
+Filesystem       Size  Used Avail Use% Mounted on
+udev             1.8G     0  1.8G   0% /dev
+tmpfs            367M  1.5M  366M   1% /run
+/dev/mmcblk0p68  9.8G  6.4G  3.0G  69% /
+tmpfs            1.8G  8.0K  1.8G   1% /dev/shm
+efivarfs         128K  2.2K  126K   2% /sys/firmware/efi/efivars
+tmpfs            5.0M     0  5.0M   0% /run/lock
+tmpfs            1.8G  8.0K  1.8G   1% /tmp
+tmpfs            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+/dev/mmcblk0p69   18G  2.6G   15G  15% /home/arduino
+/dev/mmcblk0p67  488M  113M  375M  24% /boot/efi
+tmpfs            367M   48K  367M   1% /run/user/103
+tmpfs            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs            1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyMSM0.service
+               total        used        free      shared  buff/cache   available
+Mem:            3669         529         740          38        2619        3140
+Swap:           1834           0        1834
+## after cleanup
+total 52
+drwxr-xr-x 7 arduino arduino  4096 Sep  9 10:14 .
+drwxr-xr-x 3 root    root     4096 Nov 11  2025 ..
+drwxr-xr-x 5 arduino arduino  4096 Nov 11  2025 .arduino15
+drwxr-xr-x 2 arduino arduino  4096 Sep  9 08:38 ArduinoApps
+drwxr-xr-x 3 arduino arduino  4096 Sep  9 08:38 .arduino-bricks
+-rw-r--r-- 1 arduino arduino  3526 Nov 11  2025 .bashrc
+-rwxrwxr-x 1 arduino arduino  2576 Nov 11  2025 .face
+drwxr-xr-x 3 arduino arduino  4096 Nov 11  2025 .local
+drwx------ 2 root    root    16384 Nov 11  2025 lost+found
+-rw-r--r-- 1 arduino arduino    43 Nov 11  2025 .profile
+Filesystem       Size  Used Avail Use% Mounted on
+udev             1.8G     0  1.8G   0% /dev
+tmpfs            367M  1.5M  366M   1% /run
+/dev/mmcblk0p68  9.8G  6.4G  3.0G  69% /
+tmpfs            1.8G  8.0K  1.8G   1% /dev/shm
+efivarfs         128K  2.2K  126K   2% /sys/firmware/efi/efivars
+tmpfs            5.0M     0  5.0M   0% /run/lock
+tmpfs            1.8G  8.0K  1.8G   1% /tmp
+tmpfs            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+/dev/mmcblk0p69   18G  598M   17G   4% /home/arduino
+/dev/mmcblk0p67  488M  113M  375M  24% /boot/efi
+tmpfs            367M   48K  367M   1% /run/user/103
+tmpfs            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs            1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyMSM0.service
+               total        used        free      shared  buff/cache   available
+Mem:            3669         493        2831          38         537        3176
+Swap:           1834           0        1834
+Filesystem        1B-blocks       Used   Available Use% Mounted on
+/dev/mmcblk0p68 10440204288 6777405440  3136552960  69% /
+/dev/mmcblk0p69 19214528512  626786304 17785851904   4% /home/arduino

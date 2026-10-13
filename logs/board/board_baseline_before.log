@@ -1,0 +1,81 @@
+## date
+Tue Sep  9 09:04:39 AM UTC 2025
+## uname
+Linux uno-q 6.16.7-g0dd6551ae96b #1 SMP PREEMPT Tue Sep 23 12:46:06 UTC 2025 aarch64 GNU/Linux
+## df -h
+Filesystem       Size  Used Avail Use% Mounted on
+udev             1.8G     0  1.8G   0% /dev
+tmpfs            367M  1.6M  366M   1% /run
+/dev/mmcblk0p68  9.8G  6.3G  3.0G  69% /
+tmpfs            1.8G  8.0K  1.8G   1% /dev/shm
+efivarfs         128K  2.2K  126K   2% /sys/firmware/efi/efivars
+tmpfs            1.8G  8.0K  1.8G   1% /tmp
+tmpfs            5.0M  8.0K  5.0M   1% /run/lock
+tmpfs            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+/dev/mmcblk0p69   18G  598M   17G   4% /home/arduino
+/dev/mmcblk0p67  488M  113M  375M  24% /boot/efi
+tmpfs            367M   48K  367M   1% /run/user/103
+tmpfs            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs            1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyMSM0.service
+## free -m
+               total        used        free      shared  buff/cache   available
+Mem:            3669         471        2633          38         745        3198
+Swap:           1834           0        1834
+## lscpu
+Architecture:                            aarch64
+CPU op-mode(s):                          32-bit, 64-bit
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               Qualcomm
+Model name:                              Kryo-V2
+Model:                                   4
+Thread(s) per core:                      1
+Core(s) per cluster:                     4
+Socket(s):                               -
+Cluster(s):                              1
+Stepping:                                0xa
+Frequency boost:                         disabled
+CPU(s) scaling MHz:                      58%
+CPU max MHz:                             2016.0000
+CPU min MHz:                             300.0000
+BogoMIPS:                                38.40
+Flags:                                   fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Not affected
+Vulnerability Spectre v1:                Mitigation; __user pointer sanitization
+Vulnerability Spectre v2:                Not affected
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+## /proc/cpuinfo features
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+## asimddp present?
+NO
+## cpufreq
+schedutil
+300000 614400 864000 1017600 1305600 1420800 1612800 1804800 2016000 
+## meminfo
+MemTotal:        3758016 kB
+MemFree:         2696700 kB
+MemAvailable:    3274596 kB
+## membw
+threads=1 read_GBps=2.63
+threads=2 read_GBps=5.15
+threads=3 read_GBps=7.39
+threads=4 read_GBps=8.94
+checksum_ok=0

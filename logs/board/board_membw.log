@@ -1,0 +1,15 @@
+threads=1 read_GBps=2.38
+threads=2 read_GBps=5.22
+threads=3 read_GBps=7.04
+threads=4 read_GBps=8.94
+checksum_ok=1
+threads=1 read_GBps=2.40
+threads=2 read_GBps=5.23
+threads=3 read_GBps=7.20
+threads=4 read_GBps=9.10
+checksum_ok=1
+threads=1 read_GBps=2.39
+threads=2 read_GBps=5.41
+threads=3 read_GBps=7.86
+threads=4 read_GBps=6.94
+checksum_ok=1

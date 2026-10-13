@@ -1,0 +1,4 @@
+{"model": "Qwen3-0.6B-Q4_0", "seconds": 405, "mmlu": "65/200", "gsm8k": "30/100", "triviaqa": "21/200"}
+{"model": "Qwen3-0.6B-TQ2_0", "seconds": 768, "mmlu": "41/200", "gsm8k": "0/100", "triviaqa": "0/200"}
+{"model": "gemma-3-1b-it-qat-Q4_0", "seconds": 607, "mmlu": "79/200", "gsm8k": "14/100", "triviaqa": "41/200"}
+{"model": "Ternary-Bonsai-1.7B-Q2_0_g64", "seconds": 1993, "mmlu": "108/200", "gsm8k": "66/100", "triviaqa": "44/200"}
