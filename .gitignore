@@ -1,0 +1,3 @@
+eval/results/*.server.log
+__pycache__/
+*.gguf
