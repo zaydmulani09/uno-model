@@ -1,0 +1,101 @@
+diff --git a/src/llama-arch.cpp b/src/llama-arch.cpp
+index 4c3fcb2..eda05e6 100644
+--- a/src/llama-arch.cpp
++++ b/src/llama-arch.cpp
+@@ -475,6 +475,8 @@ static const std::map<llm_tensor, const char *> LLM_TENSOR_NAMES = {
+     { LLM_TENSOR_TOKEN_TYPES,                            "token_types" },
+     { LLM_TENSOR_CLS,                                    "cls" },
+     { LLM_TENSOR_CLS_OUT,                                "cls.output" },
++    { LLM_TENSOR_OUTPUT_SUB,                             "output_sub" },
++    { LLM_TENSOR_OUTPUT_SUB_MAP,                         "output_sub_map" },
+     { LLM_TENSOR_CLS_NORM,                               "cls.norm" },
+     { LLM_TENSOR_ENC_OUTPUT_NORM,                        "enc.output_norm" },
+     { LLM_TENSOR_FFN_GATE_INP_SHEXP,                     "blk.%d.ffn_gate_inp_shexp" },
+@@ -724,6 +726,8 @@ static const std::map<llm_tensor, llm_tensor_info> LLM_TENSOR_INFOS = {
+     { LLM_TENSOR_OUTPUT,                   { LLM_TENSOR_LAYER_OUTPUT, GGML_OP_MUL_MAT }       },
+     { LLM_TENSOR_CLS,                      { LLM_TENSOR_LAYER_OUTPUT, GGML_OP_MUL_MAT }       },
+     { LLM_TENSOR_CLS_OUT,                  { LLM_TENSOR_LAYER_OUTPUT, GGML_OP_MUL_MAT }       },
++    { LLM_TENSOR_OUTPUT_SUB,               { LLM_TENSOR_LAYER_OUTPUT, GGML_OP_MUL_MAT }       },
++    { LLM_TENSOR_OUTPUT_SUB_MAP,           { LLM_TENSOR_LAYER_OUTPUT, GGML_OP_GET_ROWS }      },
+     { LLM_TENSOR_CLS_NORM,                 { LLM_TENSOR_LAYER_OUTPUT, GGML_OP_MUL }           },
+     { LLM_TENSOR_DENSE_2_OUT,              { LLM_TENSOR_LAYER_OUTPUT, GGML_OP_MUL_MAT }       }, // Dense layer output
+     { LLM_TENSOR_DENSE_3_OUT,              { LLM_TENSOR_LAYER_OUTPUT, GGML_OP_MUL_MAT }       }, // Dense layer output
+diff --git a/src/llama-arch.h b/src/llama-arch.h
+index f292e49..679fb65 100644
+--- a/src/llama-arch.h
++++ b/src/llama-arch.h
+@@ -631,6 +631,8 @@ enum llm_tensor {
+     LLM_TENSOR_ENC_OUTPUT_NORM,
+     LLM_TENSOR_CLS,
+     LLM_TENSOR_CLS_OUT,
++    LLM_TENSOR_OUTPUT_SUB,
++    LLM_TENSOR_OUTPUT_SUB_MAP,
+     LLM_TENSOR_CLS_NORM,
+     LLM_TENSOR_CONV1D,
+     LLM_TENSOR_CONVNEXT_DW,
+diff --git a/src/models/models.h b/src/models/models.h
+index a821330..ce5c7ea 100644
+--- a/src/models/models.h
++++ b/src/models/models.h
+@@ -580,6 +580,13 @@ struct llama_model_qwen3 : public llama_model_base {
+     void load_arch_hparams(llama_model_loader & ml) override;
+     void load_arch_tensors(llama_model_loader & ml) override;
+ 
++    // optional restricted LM head (uno-model): output_sub holds K selected vocab rows plus one
++    // zero row, output_sub.bias is 0 for those K rows and -inf for the zero row, and
++    // output_sub_map[token] is the row of that token (K for tokens outside the subset)
++    ggml_tensor * output_sub     = nullptr;
++    ggml_tensor * output_sub_b   = nullptr;
++    ggml_tensor * output_sub_map = nullptr;
++
+     struct graph : public llm_graph_context {
+         graph(const llama_model & model, const llm_graph_params & params);
+     };
+diff --git a/src/models/qwen3.cpp b/src/models/qwen3.cpp
+index f4b2a2a..575be6f 100644
+--- a/src/models/qwen3.cpp
++++ b/src/models/qwen3.cpp
+@@ -12,7 +12,7 @@ void llama_model_qwen3::load_arch_hparams(llama_model_loader & ml) {
+     }
+ }
+ 
+-void llama_model_qwen3::load_arch_tensors(llama_model_loader &) {
++void llama_model_qwen3::load_arch_tensors(llama_model_loader & ml) {
+     LLAMA_LOAD_LOCALS;
+ 
+     tok_embd = create_tensor(tn(LLM_TENSOR_TOKEN_EMBD, "weight"), {n_embd, n_vocab}, 0);
+@@ -25,6 +25,14 @@ void llama_model_qwen3::load_arch_tensors(llama_model_loader &) {
+         output = create_tensor(tn(LLM_TENSOR_TOKEN_EMBD, "weight"), {n_embd, n_vocab}, TENSOR_DUPLICATED);
+     }
+ 
++    // restricted LM head, present only in GGUFs written by uno-model's vocab/restrict.py
++    if (const ggml_tensor * meta = ml.get_tensor_meta(tn(LLM_TENSOR_OUTPUT_SUB, "weight").str().c_str())) {
++        const int64_t n_sub = meta->ne[1];
++        output_sub     = create_tensor(tn(LLM_TENSOR_OUTPUT_SUB,     "weight"), {n_embd, n_sub}, 0);
++        output_sub_b   = create_tensor(tn(LLM_TENSOR_OUTPUT_SUB,     "bias"),   {n_sub},         0);
++        output_sub_map = create_tensor(tn(LLM_TENSOR_OUTPUT_SUB_MAP, "weight"), {n_vocab},       0);
++    }
++
+     // output rerank head
+     cls_out = create_tensor(tn(LLM_TENSOR_CLS_OUT, "weight"), {n_embd, hparams.n_cls_out}, TENSOR_NOT_REQUIRED);
+ 
+@@ -149,8 +157,17 @@ llama_model_qwen3::graph::graph(const llama_model & model, const llm_graph_param
+     cb(cur, "result_norm", -1);
+     res->t_embd = cur;
+ 
+-    // lm_head
+-    cur = build_lora_mm(model.output, cur, model.output_s);
++    const auto & m = static_cast<const llama_model_qwen3 &>(model);
++    if (m.output_sub) {
++        // lm_head over the vocab subset only: [n_sub, n_outputs], -inf in the padding row
++        cur = ggml_add(ctx0, ggml_mul_mat(ctx0, m.output_sub, cur), m.output_sub_b);
++        // scatter back to the full vocab: gather rows of the transposed logits by token
++        cur = ggml_get_rows(ctx0, ggml_cont(ctx0, ggml_transpose(ctx0, cur)), m.output_sub_map);
++        cur = ggml_cont(ctx0, ggml_transpose(ctx0, cur)); // [n_vocab, n_outputs]
++    } else {
++        // lm_head
++        cur = build_lora_mm(model.output, cur, model.output_s);
++    }
+ 
+     cb(cur, "result_output", -1);
+     res->t_logits = cur;
