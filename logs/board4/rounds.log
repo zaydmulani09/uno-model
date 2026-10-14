@@ -1,0 +1,43 @@
+== round 1 Ternary-Bonsai-1.7B-TQ2_0_G128 23:34:22 temp 38700
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       4 |            pp64 |          9.22 ± 0.02 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       4 |            tg64 |          6.65 ± 0.04 |
+
+build: e0bcacc (1)
+== round 1 gemma-3-1b-it-qat-Q4_0 23:35:21 temp 52800
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| gemma3 1B Q4_0                 | 682.24 MiB |   999.89 M | CPU        |       4 |            pp64 |         10.27 ± 0.04 |
+| gemma3 1B Q4_0                 | 682.24 MiB |   999.89 M | CPU        |       4 |            tg64 |          6.18 ± 0.01 |
+
+build: e0bcacc (1)
+== round 1 Qwen3.5-0.8B-Q4_0 23:36:19 temp 58800
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| qwen35 0.8B Q4_0               | 478.76 MiB |   772.85 M | CPU        |       4 |            pp64 |         12.46 ± 0.02 |
+| qwen35 0.8B Q4_0               | 478.76 MiB |   772.85 M | CPU        |       4 |            tg64 |          6.12 ± 0.04 |
+
+build: e0bcacc (1)
+== round 2 Ternary-Bonsai-1.7B-TQ2_0_G128 23:37:15 temp 58800
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       4 |            pp64 |          9.22 ± 0.01 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       4 |            tg64 |          6.67 ± 0.02 |
+
+build: e0bcacc (1)
+== round 2 gemma-3-1b-it-qat-Q4_0 23:38:13 temp 60000
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| gemma3 1B Q4_0                 | 682.24 MiB |   999.89 M | CPU        |       4 |            pp64 |         10.28 ± 0.01 |
+| gemma3 1B Q4_0                 | 682.24 MiB |   999.89 M | CPU        |       4 |            tg64 |          6.26 ± 0.01 |
+
+build: e0bcacc (1)
+== round 2 Qwen3.5-0.8B-Q4_0 23:39:11 temp 63500
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| qwen35 0.8B Q4_0               | 478.76 MiB |   772.85 M | CPU        |       4 |            pp64 |         12.42 ± 0.01 |
+| qwen35 0.8B Q4_0               | 478.76 MiB |   772.85 M | CPU        |       4 |            tg64 |          6.07 ± 0.03 |
+
+build: e0bcacc (1)
+== done 23:40:07

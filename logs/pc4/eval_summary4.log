@@ -1,0 +1,6 @@
+{"model": "Ternary-Bonsai-1.7B-PQ2_0_v3", "seconds": 2525, "mmlu": "469/1000", "gsm8k": "188/300", "triviaqa": "106/500"}
+{"model": "Ternary-Bonsai-1.7B-TQ2_0_G128_v3", "seconds": 2600, "mmlu": "468/1000", "gsm8k": "188/300", "triviaqa": "104/500"}
+{"model": "Ternary-Bonsai-1.7B-TQ2_0_G128-V2_v3", "seconds": 2539, "mmlu": "465/1000", "gsm8k": "187/300", "triviaqa": "83/500"}
+{"model": "gemma-3-1b-it-qat-Q4_0_v3", "seconds": 2172, "mmlu": "384/1000", "gsm8k": "36/300", "triviaqa": "99/500"}
+{"model": "Qwen3-0.6B-Q4_0_v3", "seconds": 1315, "mmlu": "295/1000", "gsm8k": "90/300", "triviaqa": "44/500"}
+{"model": "Qwen3.5-0.8B-Q4_0_v3", "seconds": 3128, "mmlu": "385/1000", "gsm8k": "79/300", "triviaqa": "52/500"}
