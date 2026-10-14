@@ -1,0 +1,3 @@
+{"model": "Ternary-Bonsai-1.7B-PQ2_0_v3", "seconds": 2525, "mmlu": "469/1000", "gsm8k": "188/300", "triviaqa": "106/500"}
+{"model": "Ternary-Bonsai-1.7B-TQ2_0_G128_v3", "seconds": 2600, "mmlu": "468/1000", "gsm8k": "188/300", "triviaqa": "104/500"}
+{"model": "Ternary-Bonsai-1.7B-TQ2_0_G128-V2_v3", "seconds": 2539, "mmlu": "465/1000", "gsm8k": "187/300", "triviaqa": "83/500"}

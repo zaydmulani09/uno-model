@@ -1,0 +1,28 @@
+== Ternary-Bonsai-1.7B-TQ2_0_G128 15:00:57 temp 43700
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       1 |            pp64 |          2.35 ± 0.01 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       1 |            tg64 |          1.82 ± 0.00 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       2 |            pp64 |          4.68 ± 0.00 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       2 |            tg64 |          3.38 ± 0.00 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       3 |            pp64 |          6.91 ± 0.02 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       3 |            tg64 |          4.93 ± 0.01 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       4 |            pp64 |          9.20 ± 0.04 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 436.16 MiB |     1.72 B | CPU        |       4 |            tg64 |          6.68 ± 0.00 |
+
+build: e0bcacc (1)
+== end Ternary-Bonsai-1.7B-TQ2_0_G128 15:08:39 temp 56000
+== Ternary-Bonsai-1.7B-TQ2_0_G128-V2 15:12:38 temp 39600
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 453.86 MiB |     1.79 B | CPU        |       1 |            pp64 |          2.36 ± 0.00 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 453.86 MiB |     1.79 B | CPU        |       1 |            tg64 |          2.08 ± 0.00 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 453.86 MiB |     1.79 B | CPU        |       2 |            pp64 |          4.70 ± 0.01 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 453.86 MiB |     1.79 B | CPU        |       2 |            tg64 |          3.88 ± 0.00 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 453.86 MiB |     1.79 B | CPU        |       3 |            pp64 |          6.91 ± 0.00 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 453.86 MiB |     1.79 B | CPU        |       3 |            tg64 |          5.59 ± 0.03 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 453.86 MiB |     1.79 B | CPU        |       4 |            pp64 |          9.27 ± 0.01 |
+| qwen3 1.7B TQ2_0_G128 - 2.13 bpw ternary | 453.86 MiB |     1.79 B | CPU        |       4 |            tg64 |          7.58 ± 0.00 |
+
+build: e0bcacc (1)
+== end Ternary-Bonsai-1.7B-TQ2_0_G128-V2 15:19:50 temp 54700

@@ -1,0 +1,2 @@
+trials=2000 n=6144  max_err/sum|w*a|: native vs generic=2.38e-08  native vs fp64 ref=2.38e-08  bad=0
+quantize/dequantize round trip: exact
