@@ -1,3 +1,7 @@
 eval/results/*.server.log
 __pycache__/
 *.gguf
+data/
+runs/*/*.pt
+runs/*/*.safetensors
+stage2a_results.tgz
