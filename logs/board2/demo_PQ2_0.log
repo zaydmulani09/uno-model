@@ -1,0 +1,101 @@
+=================== PROMPT: Explain why the sky is blue in two sentences.
+0.00.024.586 I llama_completion: llama backend init
+0.00.024.615 I llama_completion: load the model and apply lora adapter, if any
+0.04.259.056 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.07.880.754 I cmn          init: llama threadpool init, n_threads = 4
+0.07.904.054 I 
+0.07.904.399 I system_info: n_threads = 4 (n_threads_batch = 4) / 4 | CPU : NEON = 1 | ARM_FMA = 1 | LLAMAFILE = 1 | REPACK = 1 | 
+0.07.904.401 I 
+0.07.911.506 I sampler seed: 0
+0.07.911.620 I sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.000, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 64
+	top_k = 20, top_p = 0.850, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.000
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+0.07.911.669 I sampler chain: logits -> ?penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+0.07.911.690 I generate: n_ctx = 17408, n_batch = 2048, n_predict = 128, n_keep = 0
+0.07.911.692 I 
+user
+Explain why the sky is blue in two sentences.
+assistant
+<think>
+</think>
+
+The sky appears blue because of a phenomenon called Rayleigh scattering. Sunlight, which is white light, consists of different colors with varying wavelengths. When sunlight enters Earth's atmosphere, it interacts with gas molecules and small particles, and shorter wavelengths (like blue and violet) scatter more efficiently than longer wavelengths. This scattering causes the blue light to be spread out in all directions, making the sky appear blue to our eyes. [end of text]
+
+
+0.34.593.561 I common_perf_print:    sampling time =      29.77 ms
+0.34.593.619 I common_perf_print:    samplers time =       1.17 ms /   108 tokens
+0.34.593.664 I common_perf_print:        load time =    3774.25 ms
+0.34.593.713 I common_perf_print: prompt eval time =    3765.72 ms /    19 tokens (  198.20 ms per token,     5.05 tokens per second)
+0.34.593.763 I common_perf_print:        eval time =   22854.27 ms /    88 runs   (  259.71 ms per token,     3.85 tokens per second)
+0.34.593.808 I common_perf_print:       total time =   26689.62 ms /   107 tokens
+0.34.593.855 I common_perf_print: unaccounted time =      39.85 ms /   0.1 %      (total - sampling - prompt eval - eval) / (total)
+0.34.594.009 I common_perf_print:    graphs reused =         87
+=================== PROMPT: A shop sells pencils at 3 for $1. How much do 12 pencils cost? Answer step by step.
+0.00.020.824 I llama_completion: llama backend init
+0.00.020.852 I llama_completion: load the model and apply lora adapter, if any
+0.04.164.302 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.06.816.834 I cmn          init: llama threadpool init, n_threads = 4
+0.06.833.884 I 
+0.06.834.268 I system_info: n_threads = 4 (n_threads_batch = 4) / 4 | CPU : NEON = 1 | ARM_FMA = 1 | LLAMAFILE = 1 | REPACK = 1 | 
+0.06.834.331 I 
+0.06.834.956 I sampler seed: 0
+0.06.835.047 I sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.000, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 64
+	top_k = 20, top_p = 0.850, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.000
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+0.06.835.106 I sampler chain: logits -> ?penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+0.06.835.152 I generate: n_ctx = 17408, n_batch = 2048, n_predict = 128, n_keep = 0
+0.06.835.195 I 
+user
+A shop sells pencils at 3 for $1. How much do 12 pencils cost? Answer step by step.
+assistant
+<think>
+Okay, let's see. The shop sells pencils at 3 for $1. So, I need to figure out how much 12 pencils cost. Hmm, first, maybe I should figure out the price per pencil. If 3 pencils cost $1, then each pencil would cost $1 divided by 3. Let me do that calculation. $1 divided by 3 is approximately $0.333... But maybe they want the exact price. Wait, the problem says "at 3 for $1," so maybe it's a unit price. Wait, if 3 pencils cost $1,
+
+0.46.488.413 I common_perf_print:    sampling time =      40.91 ms
+0.46.488.486 I common_perf_print:    samplers time =       1.50 ms /   161 tokens
+0.46.488.533 I common_perf_print:        load time =    6299.31 ms
+0.46.488.581 I common_perf_print: prompt eval time =    6296.78 ms /    33 tokens (  190.81 ms per token,     5.24 tokens per second)
+0.46.488.627 I common_perf_print:        eval time =   33276.53 ms /   127 runs   (  262.02 ms per token,     3.82 tokens per second)
+0.46.488.671 I common_perf_print:       total time =   39654.65 ms /   160 tokens
+0.46.488.716 I common_perf_print: unaccounted time =      40.43 ms /   0.1 %      (total - sampling - prompt eval - eval) / (total)
+0.46.488.759 I common_perf_print:    graphs reused =        126
+=================== PROMPT: Write a haiku about a small computer.
+0.00.016.809 I llama_completion: llama backend init
+0.00.016.842 I llama_completion: load the model and apply lora adapter, if any
+0.04.187.691 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.06.705.443 I cmn          init: llama threadpool init, n_threads = 4
+0.06.718.034 I 
+0.06.718.236 I system_info: n_threads = 4 (n_threads_batch = 4) / 4 | CPU : NEON = 1 | ARM_FMA = 1 | LLAMAFILE = 1 | REPACK = 1 | 
+0.06.718.238 I 
+0.06.718.496 I sampler seed: 0
+0.06.718.527 I sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.000, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 64
+	top_k = 20, top_p = 0.850, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.000
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+0.06.718.539 I sampler chain: logits -> ?penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+0.06.718.541 I generate: n_ctx = 17408, n_batch = 2048, n_predict = 128, n_keep = 0
+0.06.718.542 I 
+user
+Write a haiku about a small computer.
+assistant
+<think>
+</think>
+
+Silent pulse,  
+data flows like a river,  
+small heart beats. [end of text]
+
+
+0.15.158.531 I common_perf_print:    sampling time =       6.79 ms
+0.15.158.539 I common_perf_print:    samplers time =       0.24 ms /    38 tokens
+0.15.158.545 I common_perf_print:        load time =    3263.65 ms
+0.15.158.550 I common_perf_print: prompt eval time =    3263.04 ms /    17 tokens (  191.94 ms per token,     5.21 tokens per second)
+0.15.158.554 I common_perf_print:        eval time =    5164.17 ms /    20 runs   (  258.21 ms per token,     3.87 tokens per second)
+0.15.158.556 I common_perf_print:       total time =    8440.51 ms /    37 tokens
+0.15.158.559 I common_perf_print: unaccounted time =       6.52 ms /   0.1 %      (total - sampling - prompt eval - eval) / (total)
+0.15.158.560 I common_perf_print:    graphs reused =         19

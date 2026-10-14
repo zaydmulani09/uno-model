@@ -1,0 +1,5 @@
+{"model": "Ternary-Bonsai-1.7B-PQ2_0", "seconds": 851, "mmlu": "107/200", "gsm8k": "67/100", "triviaqa": "44/200"}
+{"model": "Ternary-Bonsai-1.7B-TQ2_0", "seconds": 660, "mmlu": "101/200", "gsm8k": "73/100", "triviaqa": "39/200"}
+{"model": "Ternary-Bonsai-1.7B-PQ2_0-V32k", "seconds": 1533, "mmlu": "105/200", "gsm8k": "23/100", "triviaqa": "0/200"}
+{"model": "Ternary-Bonsai-1.7B-PQ2_0-patchedbuild", "seconds": 906, "mmlu": "106/200", "gsm8k": "68/100", "triviaqa": "44/200"}
+{"model": "Ternary-Bonsai-1.7B-PQ2_0-V32kB-posthoc", "seconds": 999, "mmlu": "107/200", "gsm8k": "24/100", "triviaqa": "39/200"}
