@@ -1,12 +1,17 @@
 """Freeze the eval set: 200 MMLU + 100 GSM8K + 200 TriviaQA, sampled with seed 0.
 Writes eval/evalset.jsonl (one row per question: task, id, prompt, gold). Run once; the
-jsonl is committed so every model sees byte-identical prompts."""
-import io, json, random, urllib.request
+jsonl is committed so every model sees byte-identical prompts.
+Stage 1b: python build_evalset.py 1000 300 500 evalset_v3.jsonl (same builders, bigger samples)."""
+import io, json, random, sys, urllib.request
 from pathlib import Path
 import pandas as pd
 
 API = "https://huggingface.co/api/datasets"
-OUT = Path(__file__).with_name("evalset.jsonl")
+if len(sys.argv) == 5:
+    N_MMLU, N_GSM, N_TQA, NAME = int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]
+else:
+    N_MMLU, N_GSM, N_TQA, NAME = 200, 100, 200, "evalset.jsonl"
+OUT = Path(__file__).with_name(NAME)
 
 
 def parquet(ds, cfg, split):
@@ -22,7 +27,7 @@ rows = []
 
 # MMLU, zero-shot, answer letter constrained by grammar at eval time.
 mmlu = parquet("cais/mmlu", "all", "test")
-for i in sample(mmlu, 200):
+for i in sample(mmlu, N_MMLU):
     r = mmlu.iloc[i]
     subj = r.subject.replace("_", " ")
     opts = "\n".join(f"{l}. {c}" for l, c in zip("ABCD", r.choices))
@@ -33,7 +38,7 @@ for i in sample(mmlu, 200):
 # GSM8K, 4-shot chain of thought using the first 4 train problems, answer after '####'.
 gtrain, gtest = parquet("openai/gsm8k", "main", "train"), parquet("openai/gsm8k", "main", "test")
 shots = "".join(f"Question: {q}\nAnswer: {a}\n\n" for q, a in zip(gtrain.question[:4], gtrain.answer[:4]))
-for i in sample(gtest, 100):
+for i in sample(gtest, N_GSM):
     r = gtest.iloc[i]
     gold = r.answer.split("####")[-1].strip().replace(",", "")
     rows.append(dict(task="gsm8k", id=f"gsm8k-{i}", prompt=f"{shots}Question: {r.question}\nAnswer:", gold=gold))
@@ -42,7 +47,7 @@ for i in sample(gtest, 100):
 ttrain = parquet("mandarjoshi/trivia_qa", "rc.nocontext", "train")
 tval = parquet("mandarjoshi/trivia_qa", "rc.nocontext", "validation")
 shots = "".join(f"Q: {q}\nA: {a['value']}\n\n" for q, a in zip(ttrain.question[:5], ttrain.answer[:5]))
-for i in sample(tval, 200):
+for i in sample(tval, N_TQA):
     r = tval.iloc[i]
     gold = sorted(set(list(r.answer["normalized_aliases"]) + [r.answer["normalized_value"]]))
     rows.append(dict(task="triviaqa", id=f"tqa-{i}", prompt=f"{shots}Q: {r.question}\nA:", gold=gold))

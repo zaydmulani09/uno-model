@@ -1,6 +1,6 @@
 """Score one GGUF on the frozen eval set via a local llama-server (greedy, raw completion,
 no chat template, so every model gets byte-identical prompts).
-Usage: python run_eval.py <llama-server.exe> <model.gguf> <name>
+Usage: python run_eval.py <llama-server.exe> <model.gguf> <name> [evalset.jsonl]
 Writes eval/results/<name>.jsonl (every prompt's output) and prints per-task accuracy."""
 import json, re, string, subprocess, sys, time, urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -45,8 +45,8 @@ def run(row):
     return {"id": row["id"], "task": row["task"], "output": out, "correct": bool(ok)}
 
 
-def main(server, model, name):
-    rows = [json.loads(l) for l in (HERE / "evalset.jsonl").open(encoding="utf-8")]
+def main(server, model, name, evalset="evalset.jsonl"):
+    rows = [json.loads(l) for l in (HERE / evalset).open(encoding="utf-8")]
     log = open(HERE / "results" / f"{name}.server.log", "w")
     proc = subprocess.Popen([server, "-m", model, "--port", str(PORT), "-np", str(SLOTS), "-c", str(4096 * SLOTS),
                              "-t", "8", "--no-webui"], stdout=log, stderr=subprocess.STDOUT)
@@ -78,4 +78,4 @@ if __name__ == "__main__":
     assert last_number("so 5 + 37 = 42\n#### 42") == "42" and last_number("total is $1,234.") == "1234"
     assert norm("The Ghost!") == "ghost"
     (HERE / "results").mkdir(exist_ok=True)
-    main(*sys.argv[1:4])
+    main(*sys.argv[1:5])
